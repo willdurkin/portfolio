@@ -37,30 +37,35 @@ body {
 	left: 80%
 }
 
+#second-button {
+	left: 78.5% !important;
+}
+
 .button{
     display:block;
     width:50px;
     height:50px;
     position:absolute;
     top:-30px;
-    left:82%;
+    left:84%;
     background-image:url(../images/blackDownArrow.png);
     background-repeat:no-repeat;
 }
 
-.button:hover{
-    cursor:pointer;
+.button:hover {
+	cursor: pointer;
 }
 
 h1{
 	font-weight: bold;
 	font-size: 24px;
-	margin-top: 15px;
+	
 	color: black;
 }
 
 h2 {
-	font-weight: bold;
+/*	color: #5E9516;
+*/	font-weight: bold;
 	font-size: 16px;
 }
 
@@ -80,7 +85,7 @@ h3 {
 	/*background: black;*/
 	top: 18px;
 	position: fixed;
-	left: 430px;
+	left: 440px;
 	z-index: 2;
 
 }
@@ -122,10 +127,10 @@ h3 {
 #subnav {
 	display: none;
 	font-size: 12px;
-    left: 528px;
+    left: 618px;
     position: fixed;
     top: 40px;
-    width: 65px;
+    width: 85px;
     z-index: 5;
     color: black;
     padding-top: 7px;
@@ -140,7 +145,9 @@ h3 {
 #subnav li a {
 	text-decoration: none;
 	color: black;
+	z-index: 11;
 }
+
 
 #subnav li a:visited {
 	text-decoration: none;
@@ -210,9 +217,24 @@ h3 {
 
 #img-wrap {
 	float: left;
-	margin-left: 40px;
-	margin-top: 50px;
+	margin-left: 50px;
+	margin-top: 70px;
 	width: 300px;
+
+}
+
+#busker-logo {
+	width: 300px;
+	margin-bottom: 10px;
+	margin-left: -10px;
+}
+
+#rex-logo {
+	margin-bottom: -40px;
+	margin-top: -30px;
+	height: 70%;
+	width: 70%;
+	margin-left:20px;
 }
 
 .thumb {
@@ -221,16 +243,12 @@ h3 {
 	margin-top: 10px;
 }
 
-#busker-logo {
-	width: 300px;
-	
-}
 
 #text-wrap {
 	float: left;
-	margin-left: 100px;
-	width: 575px;
-	margin-top: 50px;
+	margin-left: 40px;
+	width: 550px;
+	margin-top: 65px;
 
 }
 
@@ -279,7 +297,7 @@ h3 {
 
 #img_div{
 	float: left;
-	margin-left: 150px;
+	margin-left: 120px;
 	width: 400px;
 	margin-top: 120px;
 }

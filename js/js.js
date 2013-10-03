@@ -73,7 +73,7 @@ $(document).ready(function ($) {
     })
 
 // DOWN ARROW ANIMATION ////////////
-	$('.button').delay(2000).animate({ top: 610}, {duration: 1000, easing: 'easeOutBounce'});
+	$('.button').delay(500).animate({ top: 610}, {duration: 1000, easing: 'easeOutBounce'});
 
 // ADD TOP LINK NAV ///////
 
