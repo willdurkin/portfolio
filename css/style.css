@@ -163,10 +163,10 @@ h3 {
 
 #home_bg img {
 	position: relative;
-	width: 1150px;
-	top: -175px;
+	width: 1130px;
+	top: -170px;
 	z-index: 0;
-	height: 1070px;
+	height: 1040px;
 
 }
 
@@ -188,7 +188,7 @@ h3 {
 #title {
 	position: absolute;
 	top: 225px;
-	left: 400px;
+	left: 390px;
 	width: 400px;
 	font-family: Raleway Dots, Cabin, arial;
 	font-weight: 400;	
@@ -230,7 +230,7 @@ h3 {
 }
 
 #rex-logo {
-	margin-bottom: -40px;
+	margin-bottom: -35px;
 	margin-top: -30px;
 	height: 70%;
 	width: 70%;
@@ -323,4 +323,20 @@ h3 {
 #img_div p {
 	margin-top: 20px;
 	font-size: 14px;
+}
+
+#signature {
+	color: #555555;
+	z-index: 2;
+	position: absolute;
+	top: 630px;
+	left: 455px;
+}
+
+#signature p {
+	margin-top: -5px;
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: gray;
+
 }
